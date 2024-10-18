@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#mensaje {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#mensaje.verde {
+    color: green;
+}
+
+#mensaje.rojo {
+    color: red;
+}
+
+#mensaje.amarillo {
+    color: orange;
+}
+
+#intentos {
+    font-weight: bold;
+}
